@@ -35,6 +35,7 @@ console.log(meal);
 */
 
 // Task 2 : Random Number
+/*
 let rng = (Math.floor(Math.random() * 10)) + 1;
 if (rng >= 0 && rng <= 2) {
     console.log(`Beatles`);
@@ -45,4 +46,21 @@ if (rng >= 0 && rng <= 2) {
 } else if (rng >= 9 && rng <= 10) {
     console.log(`Hendrix`);
 }
+*/
 
+// Loops
+// Task 1
+/*
+for (let i = 0; i < 7; ++i){
+    console.log(`Javascript is cool.`);
+}
+
+for (let i = 0; i <= 10; ++i){
+    console.log(`${i}`);
+}
+
+for (let i = 0; i < 5; ++i){
+    console.log(`hello`);
+    console.log(`goodbye`);
+}
+*/
