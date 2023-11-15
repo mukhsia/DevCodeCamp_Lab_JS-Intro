@@ -33,3 +33,16 @@ if (timeOfDay < 1200) {
 }
 console.log(meal);
 */
+
+// Task 2 : Random Number
+let rng = (Math.floor(Math.random() * 10)) + 1;
+if (rng >= 0 && rng <= 2) {
+    console.log(`Beatles`);
+} else if (rng >= 3 && rng <= 5) {
+    console.log(`Stones`);
+} else if (rng >= 6 && rng <= 8) {
+    console.log(`Floyd`);
+} else if (rng >= 9 && rng <= 10) {
+    console.log(`Hendrix`);
+}
+
