@@ -106,3 +106,22 @@ for(let item of desktopItems){
     console.log(item);
 }
 */
+
+// Bonus Task: Magic Number
+let magicNumber = Math.floor(Math.random() * 101);
+let guess = 0;
+
+while(guess != magicNumber)
+{
+    guess = prompt(`Input your guess between 0 and 100.`);
+
+    if (guess == magicNumber) {
+        console.log(`Congratulations! ${magicNumber} is the magic Number.`);
+    } else if (Math.abs(guess-magicNumber) <= 10) {
+        console.log(`Getting warmer!`);
+    } else if (guess > magicNumber){
+        console.log(`Too high!`);
+    } else if (guess < magicNumber) {
+        console.log(`Too low!`);
+    }
+}
